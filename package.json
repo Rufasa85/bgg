@@ -1,0 +1,31 @@
+{
+  "name": "bgg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed":"node seeds/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rufasa85/bgg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rufasa85/bgg/issues"
+  },
+  "homepage": "https://github.com/Rufasa85/bgg#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.22.2",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "fast-xml-parser": "^3.19.0",
+    "graphql": "^15.5.0",
+    "he": "^1.2.0",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "xml2js": "^0.4.23"
+  }
+}
